@@ -1,0 +1,119 @@
+html body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(222,26%, 31%);
+}
+
+.main-container{
+margin-top: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 12px;
+}
+
+.screen {
+    width: 500px;
+    height: 130px;
+    border: solid black 1px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(224,36%,15%);
+
+}
+
+.show-input{
+    width: 420px;
+    height: 90px;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.input-container{
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: hsl(223,31%,20%);
+}
+
+.row , .column , .del{
+    gap: 10px;
+    border-radius: 12px;
+}
+
+.column, .del{
+    width: 112.5px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(46, 40, 40);
+}
+
+.row, .nav-calc{
+    width: 450px;
+    height: 75px;
+    display: flex;
+}
+
+.del, .clear{
+    background-color: grey;
+    color: white;
+}
+
+.clear, .equal{
+    height: 75px;
+    width: 250px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-calc{
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.equal{
+background-color: red;
+}
+
+
+#text-footer{
+    margin-top: 20px;
+    color: white;
+}
+
+.header{
+    display: flex;
+    width: 500px;
+    justify-content: space-evenly;
+    gap: 300px;
+}
+
+.header > .theme-selector > label, .name {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.name{
+    font-size: 25px;
+}
